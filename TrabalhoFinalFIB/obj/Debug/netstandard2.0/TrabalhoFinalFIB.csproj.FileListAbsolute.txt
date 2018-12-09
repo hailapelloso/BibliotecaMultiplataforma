@@ -1,0 +1,14 @@
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\bin\Debug\netstandard2.0\TrabalhoFinalFIB.deps.json
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\bin\Debug\netstandard2.0\TrabalhoFinalFIB.dll
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\bin\Debug\netstandard2.0\TrabalhoFinalFIB.pdb
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\TrabalhoFinalFIB.csprojAssemblyReference.cache
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\TrabalhoFinalFIB.csproj.CoreCompileInputs.cache
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\TrabalhoFinalFIB.AssemblyInfoInputs.cache
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\TrabalhoFinalFIB.AssemblyInfo.cs
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\TrabalhoFinalFIB.dll
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\TrabalhoFinalFIB.pdb
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\Views\AuthorsPage.xaml.g.cs
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\Views\BooksPage.xaml.g.cs
+E:\Projetos\Xamarin\TrabalhoFinalFIB\TrabalhoFinalFIB\obj\Debug\netstandard2.0\Views\NewAuthorPage.xaml.g.cs

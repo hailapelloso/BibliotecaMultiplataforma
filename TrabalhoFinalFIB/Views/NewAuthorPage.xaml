@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TrabalhoFinalFIB.ViewModels"
+    x:Class="TrabalhoFinalFIB.Views.NewAuthorPage"
+    Title="Novo autor">
+
+    <ContentPage.BindingContext>
+        <!-- Cria uma instância de AuthorsViewModel que, quando invocar o evento
+            RequestFailed, vai chamar o método Handle_RequestFailed da página.
+            Não pode esquecer de colocar o trecho xmlns:local ali em cima. -->
+        <local:NewAuthorViewModel RequestFailed="Handle_RequestFailed" AuthorAdded="Handle_AuthorAdded" />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Label Text="Nome do autor" FontSize="Medium" />
+            <Entry x:Name="NameEntry" Placeholder="Digite o nome do autor" FontSize="Small" />
+            <Button Text="Inserir" 
+                    Command="{Binding PostCommand}"
+                    CommandParameter="{Binding Text, Source={Reference NameEntry}}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

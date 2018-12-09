@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TrabalhoFinalFIB.Views"
+    x:Class="TrabalhoFinalFIB.App">
+    
+    <!-- Define a página principal/raiz da aplicação -->
+    <Application.MainPage>
+        <TabbedPage Title="Abas" Icon="star.png">
+            <TabbedPage.Children>
+                <!-- Cria instância de NavigationPage -->
+                <NavigationPage Title="Autores" Icon="people.png">
+
+                    <!-- Determina parâmetros passados para o construtor de NavigationPage -->
+                    <x:Arguments>
+
+                        <!-- Passa uma instância de AuthorsPage para o construtor,
+                    fazendo com que ela seja a primeira a ser exibida dentro
+                    do NavigationPage -->
+                        <local:AuthorsPage />
+                    </x:Arguments>
+                </NavigationPage>
+
+                <NavigationPage Title="Livros" Icon="book.png">
+
+                    <!-- Determina parâmetros passados para o construtor de NavigationPage -->
+                    <x:Arguments>
+
+                        <!-- Passa uma instância de AuthorsPage para o construtor,
+                    fazendo com que ela seja a primeira a ser exibida dentro
+                    do NavigationPage -->
+                        <local:BooksPage />
+                    </x:Arguments>
+                </NavigationPage>
+
+            </TabbedPage.Children>
+        </TabbedPage>
+
+    </Application.MainPage>
+</Application>
